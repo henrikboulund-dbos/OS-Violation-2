@@ -8,7 +8,7 @@ public class Main {
         BigInteger n = BigInteger.ONE;
         for(int i = 2; i > 0; i++) {
             n = n.multiply(BigInteger.valueOf(i));
-            System.out.println(n);
+            //System.out.println(n);
         }
     }
 }
